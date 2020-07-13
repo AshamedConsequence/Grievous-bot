@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const { token } = require('./config.json')
 const bot = new Discord.Client();
 
-const regex = /.*hello\ *there$/gi;
+const regex = /.*hello\ *there.*/gi;
 
 bot.on('ready', () => {
 	console.log('Bot is online')
