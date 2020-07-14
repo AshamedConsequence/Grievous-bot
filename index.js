@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const { token } = require('./config.json')
 const bot = new Discord.Client();
 
-const regex = /.*h *e *l *l *o *t *h *e *r *e.*/gi;
+const regex = /.*h *e *l *l *o(( |\n)*)t *h *e *r *e.*/gi;
 // Makes it so the bot has a specific answer to an uwu'd hello there
 const wegex = /.*h *e *(l *l|w *w) *o(( |\n)*)t *h *e *(r|w) *e.*/gi;
 
